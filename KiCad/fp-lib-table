@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "MEPOS")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MEPOS.pretty")(options "")(descr ""))
+  (lib (name "DRV8876")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DRV8876.pretty")(options "")(descr ""))
+)
