@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.01
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -407,7 +407,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D Models/DRV8876 Breakout.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
