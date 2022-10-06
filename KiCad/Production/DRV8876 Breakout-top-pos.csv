@@ -1,0 +1,16 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+C1,10uF,C_0603_1608Metric,-9.935,4.4,180,top
+C2,22nF,C_0603_1608Metric,-6.275,-0.75,180,top
+C3,100nF,C_0603_1608Metric,5.25,-0.475,90,top
+C4,22nF,C_0603_1608Metric,3.5,2.275,90,top
+C5,100nF,C_0603_1608Metric,3.5,-2.025,-90,top
+C6,470uF,CP_Elec_10x10.5,11.7,-8,0,top
+D1,KT-0603W White,LED_0603_1608Metric,-4.675,10.755,90,top
+R1,10k,R_0603_1608Metric,-4,13.255,0,top
+R2,1k,R_0603_1608Metric,-4,8.255,0,top
+R3,10k,R_0603_1608Metric,-9.985,7.9,180,top
+R4,R_Small,R_0603_1608Metric,-9.985,6.15,180,top
+R5,R_Small,R_0603_1608Metric,-9.985,2.65,180,top
+R6,0R,R_0603_1608Metric,-6.35,-5.143,-90,top
+R7,1k6,R_0603_1608Metric,-6.325,-2.5,180,top
+U1,DRV8876,VQFN16 DRV8876,0,0,0,top
