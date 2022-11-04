@@ -1,0 +1,46 @@
+!SESSION 2022-06-30 11:31:44.832 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-06-30 11:32:19.409
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-06-30 11:32:19.455
+!MESSAGE Log4j initialized with config file C:\Users\tomfr\Documents\GitHub\MEPOS-STM32F405RGT6\STM32 Software\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-06-30 11:32:20.928
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2022-06-30 11:33:05.326 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-06-30 11:33:10.392
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-06-30 11:33:10.450
+!MESSAGE Log4j initialized with config file C:\Users\tomfr\Documents\GitHub\MEPOS-STM32F405RGT6\STM32 Software\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-06-30 11:33:12.312
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2022-06-30 11:33:40.369 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  C:\Users\tomfr\Documents\GitHub\MEPOS-STM32F405RGT6\STM32 Software\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\tomfr\Documents\GitHub\MEPOS-STM32F405RGT6\STM32 Software\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-06-30 11:33:53.432
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-06-30 11:33:53.476
+!MESSAGE Log4j initialized with config file C:\Users\tomfr\Documents\GitHub\MEPOS-STM32F405RGT6\STM32 Software\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-06-30 11:33:55.301
+!MESSAGE Started RMI Server, listening on port 41338
