@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "DRV8876.h"
 
 /* USER CODE END Includes */
 
@@ -51,6 +52,8 @@ DMA_HandleTypeDef hdma_tim3_ch3;
 DMA_HandleTypeDef hdma_tim3_ch4_up;
 
 /* USER CODE BEGIN PV */
+DRV8876_TypeDef xAxis;
+DRV8876_TypeDef yAxis;
 
 /* USER CODE END PV */
 
@@ -103,15 +106,11 @@ int main(void)
   MX_ADC2_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  uint16_t pwmData1[1024] = {5,10,15,20,25};
-  uint16_t pwmData2[1024] = {5,10,15,20,25};
-  uint16_t pwmData3[1024] = {5,10,15,20,25};
-  uint16_t pwmData4[1024] = {5,10,15,20,25};
+  Init_DRV8876(&xAxis, &htim3, TIM_CHANNEL_1, TIM_CHANNEL_2);
+  Init_DRV8876(&yAxis, &htim3, TIM_CHANNEL_3, TIM_CHANNEL_4);
 
-  HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_1, (uint32_t*)&pwmData1[0], 1024);
-  HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_2, (uint32_t*)&pwmData2[0], 1024);
-  HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_3, (uint32_t*)&pwmData3[0], 1024);
-  HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_4, (uint32_t*)&pwmData4[0], 1024);
+  Start_DRV8876(&xAxis);
+  Start_DRV8876(&yAxis);
 
   /* USER CODE END 2 */
 

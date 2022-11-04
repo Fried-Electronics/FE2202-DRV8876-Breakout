@@ -1,0 +1,2 @@
+../Core/Src/DRV8876.c:11:19:Init_DRV8876	24	static
+../Core/Src/DRV8876.c:23:19:Start_DRV8876	16	static
