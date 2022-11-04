@@ -8,7 +8,7 @@
 #include "DRV8876.h"
 #include "string.h"
 
-HAL_StatusTypeDef Init_DRV8876 (DRV8876_TypeDef *DRV8876, TIM_HandleTypeDef *Timer_Handle, uint32_t Timer_Channel_IN1, uint32_t Timer_Channel_IN2)
+HAL_StatusTypeDef Init_DRV8876 (DRV8876_TypeDef *DRV8876, ADC_HandleTypeDef *FB_ADC_Handle, ADC_HandleTypeDef *IPROPI_ADC_Handle,TIM_HandleTypeDef *Timer_Handle, uint32_t Timer_Channel_IN1, uint32_t Timer_Channel_IN2)
 {
 	DRV8876->Timer_Handle = Timer_Handle;
 	DRV8876->Timer_Channel_IN1 = Timer_Channel_IN1;

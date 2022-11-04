@@ -63,6 +63,10 @@ void Error_Handler(void);
 #define DRV1_IPROPI_GPIO_Port GPIOA
 #define DRV2_IPROPI_Pin GPIO_PIN_1
 #define DRV2_IPROPI_GPIO_Port GPIOA
+#define DRV1_FB_Pin GPIO_PIN_2
+#define DRV1_FB_GPIO_Port GPIOA
+#define DRV2_FB_Pin GPIO_PIN_3
+#define DRV2_FB_GPIO_Port GPIOA
 #define DRV2_IN1_Pin GPIO_PIN_0
 #define DRV2_IN1_GPIO_Port GPIOB
 #define DRV2_IN2_Pin GPIO_PIN_1
